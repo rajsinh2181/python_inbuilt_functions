@@ -1,0 +1,11 @@
+#bianry to decimal
+def binaryToDecimal(n):
+    return int(n,2)
+ 
+ 
+#decimal to binary
+def decimalToBinary(n):
+    return bin(n).replace("0b", "").zfill(32)
+
+#here zfill is a string functionality used to 
+fill out the extra spaces with 0
